@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url('images/heart-bg.jpg') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+header h1 {
+  color: #e75480;
+  text-shadow: 1px 1px 3px #fff;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+#message-container {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  text-align: center;
+  margin: 2rem;
+}
+
+#message {
+  font-size: 1.5rem;
+  color: #d14781;
+}
