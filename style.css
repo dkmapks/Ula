@@ -2,31 +2,39 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background: url('images/heart-bg.jpg') center/cover no-repeat;
+  background: linear-gradient(to bottom, #ffd1dc, #ffe4e1);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Dancing Script', cursive;
 }
 
 header h1 {
-  color: #e75480;
-  text-shadow: 1px 1px 3px #fff;
+  color: #ff69b4;
+  text-shadow: 2px 2px 5px rgba(255, 182, 193, 0.6);
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-top: 1rem;
 }
 
 #message-container {
-  background: rgba(255, 255, 255, 0.8);
-  padding: 2rem 3rem;
-  border-radius: 1rem;
+  background: rgba(255, 240, 245, 0.9);
+  padding: 2.5rem 3.5rem;
+  border-radius: 2rem;
   text-align: center;
   margin: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#message-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
 }
 
 #message {
-  font-size: 1.5rem;
-  color: #d14781;
+  font-size: 1.8rem;
+  color: #c71585;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.8);
 }
